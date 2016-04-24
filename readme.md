@@ -12,7 +12,9 @@ The code in this repository uses Node/npm to install its dependencies.  Setup in
 1. In a bash window, git clone this repository.
 1. cd to the repository folder, then issue `npm install` to download the dependencies.
 1. One of those dependencies will be Bower.  You can now use Bower to install Kendo Pro from the official Telerik Bower packages by issuing ` node_modules/.bin/bower install` at your command prompt.  You will be prompted to your Telerik ID and password at this stage, and may have to enter them twice.
+1. Another one of thoese dependencies will be Gulp.  You can now use Gulp to bundle the project together by issuing `node_modules/.bin/gulp` at your command prompt.
 1. Open the file src/index.html in your browser in a local web server.  I use Sublime Server for this.
+1. Open the file dist/index.html in your browser in a local web server.
 
 ###Further Notes
 SystemJS uses Babel to transpile ES6 modules into ES5.
